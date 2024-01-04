@@ -1,0 +1,298 @@
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Kalam', cursive;*/
+/*font-family: 'Oswald', sans-serif;*/
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(images/your-background-image.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation styles */
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    background:none;
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding:0px 0px 0px 15px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 0.5rem 1rem;
+}
+
+.menu a:nth-child(3) {
+    background: none;
+    border-radius: 8px;
+    margin: 0 1.5rem;
+}
+
+.menu i {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    padding:0.5rem 0.5rem;
+
+}
+
+.menu a:hover {
+    background: rgb(8, 190, 8);
+    border-radius: 8px;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top:5px;
+}
+
+.left {
+    flex: 1;
+    padding:20px;
+    margin-top:50px;
+}
+
+.right {
+    flex: 1;
+    padding:1px 1px 20px 5px;/*top right bottom left*/
+}
+
+/* Text and heading styles */
+h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(8, 190, 8);
+}
+
+/* Image styles */
+.myphoto {
+    max-width: 100%;
+    height: auto;
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+}
+#hire{
+    text-decoration: none;
+    background:rgb(8, 190, 8);
+    color:white;
+    border-radius:8px;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    font-size:1rem;
+    margin-right:145px;
+}
+#myp{
+    text-decoration: none;
+    background:rgb(8, 190, 8);
+    color:white;
+    border-radius:8px;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    font-size:1;
+    margin-left: 50px;
+}
+#bio {
+    display: flex;
+    align-items: 20px 0 0 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.leftbio img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rightbio {
+    max-width: 100%;
+    flex: 1;
+    padding: 20px;
+}
+
+.bio-title {
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+}
+
+.bio-heading {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.bio-text {
+    font-size: 16px;
+    line-height: 1.4;
+    color:black;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    text-align: left;
+    
+}
+.info p{
+    color:black;
+}
+.follow{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.follow p{
+    margin-right:10px;
+    color:black;
+}
+.fa{
+    font-size:50px;
+    font-weight: bold;
+    margin-right:20px;
+}
+.follow i{
+    font-size: 1.5rem;
+}
+#insta{
+    color:rgb(161, 18, 161);
+}
+#whatsapp{
+    color:green;
+}
+#linkdin{
+    color:rgb(55, 55, 198);
+}
+#CV{
+    text-decoration: none;
+    background:rgb(8, 190, 8);
+    color:white;
+    border-radius:8px;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    font-size:1rem;
+    
+}
+.hirecv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.hirecv a:hover {
+    background: black;
+}
+.partition {
+    display: flex;
+    align-items: 20px 0 0 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+#skills{
+    text-align:center;
+    margin-top:0px;
+    background-color: rgba(53, 60, 60, 0.95);
+}
+.partition {
+    display: flex;
+    justify-content: space-around; /* Space between the two columns */
+}
+#skil{
+    font-family: 'Kalam', cursive;
+    text-decoration: underline;
+    color:white;
+}
+.fab.fa-wordpress{
+    font-size: 25px; /* Set the font size of the icon */
+    color: #0a0807; /* Set the icon color to the typical WordPress blue */
+    margin-right: 10px; /* Add some spacing to the right of the icon */
+}
+.partition h2{
+    color:white;
+}
+#mywrk{
+    padding:20px;
+    font-size:30px;
+    color:white;
+    text-decoration: underline;
+}
+/* Styling for the entire 'mywork' section */
+.work {
+    margin:20px 20px 20px 20px;
+    background-color: rgb(39, 38, 38); /* Background color for the entire section */
+}
+
+/* Styling for individual work categories */
+.ad, .sd, .wd, .author {
+    flex: 1;
+    padding: 20px;
+    background-color: darksalmon; /* Background color for individual work categories */
+    text-align: center;
+    border: 1px solid #ccc; /* Optional border */
+    margin: 0 20px; /* Adjust margin as needed */
+    display:inline-block;
+
+}
+.mywork {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px 80px 80px; /* Adjust padding values as needed */
+    background-color: rgb(39, 38, 38); /* Background color for the entire section */
+}
+
+/* Styling for specific work category h2 elements */
+.ad h2, p{
+    color:white;
+}
+
+.sd h2,p{
+    color:white;
+}
+
+.wd h2,p{
+    color:white;
+}
+
+.author h2 ,p{
+    color:white;
+}
+
